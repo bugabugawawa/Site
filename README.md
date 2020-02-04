@@ -2,7 +2,9 @@
 
 ![Image](https://github.com/bugabugawawa/Site/blob/master/Images/test.jpg)
 
-<button name="button" onclick="http://www.google.com">Click me</button>
+Lorem ipsum dolor sit amet.
+
+[Click me](http://www.google.com){: .btn}
 
 You can use the [editor on GitHub](https://github.com/bugabugawawa/Site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
