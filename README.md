@@ -2,10 +2,29 @@
 
 ![Image](https://github.com/bugabugawawa/Site/blob/master/Images/test.jpg)
 
-Lorem ipsum dolor sit amet.
+<!DOCTYPE html>
 
-[Click me](http://www.google.com){: .btn}
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ligoski Page</title>
+	<style>
+		body{
+			background: rbg(58,58,58);
+			font-family: helvetica Neue, helvetica, Arial, sans-serif;
+		}
+		h1{
+			color: rgb(0,183,255);
+		}
+	</style>
+</head>
+<body>
+	<h1>Churrasco!</h1>
+	<p>Vai ter um churrasco em algum momento</p>
+	<button>Inscrever-se</button>
 
+</body>
+</html>
 You can use the [editor on GitHub](https://github.com/bugabugawawa/Site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
