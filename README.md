@@ -2,7 +2,15 @@
 
 ![Image](https://github.com/bugabugawawa/Site/blob/master/Images/test.jpg)
 
-<button type="button">Click Me!</button>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The Button Element</h2>
+<button type="button" onclick="alert('Hello world!')">Click Me!</button>
+ 
+</body>
+</html>
 
 You can use the [editor on GitHub](https://github.com/bugabugawawa/Site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
