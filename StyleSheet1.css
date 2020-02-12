@@ -1,0 +1,202 @@
+﻿body{
+	color: white;
+	background: rbg(58,58,58);
+	font-family: helvetica Neue, helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+header {
+	background-color: #ff7b25;
+	background-size: 100%;
+	background-position: center;
+	height: 580px;
+	padding: 0px;
+}
+section{
+	background:#e6ffff;
+	display: flex;
+	display-direction: row;
+	color: gray;
+	padding: 20px;
+}
+section.head{
+	background-image: url("Images/home.jpg");
+	background-color:transparent;
+	background-size: 100%;
+	background-position: center;
+	margin:0;
+	height: 400px;
+	padding: 20px;
+}
+footer{
+	background: black;
+	margin: 0;
+	bottom:0;
+	width:100%;
+	height: 35px;
+	position:sticky;
+}
+div{
+	color: #e6e6ff;
+	background: #5c5c8a;
+	border-radius: 5%;
+	margin:auto;
+	height: 500px;
+	width: 45%;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+li {
+	background: chocolate;
+	display: inline-block;
+	width: 128px;
+	height: 100px;
+	margin-right: -5px;
+	border-radius: 0px 20px 0 20px;
+}
+li a{
+	color: #ffa366;
+	text-decoration: none;
+	font-size: 48px;
+	text-align: center;
+	margin-left: 10px;
+	line-height: 100px;
+}
+button{
+	text-transform: uppercase;
+	text-align: center;
+	border: 0.2em solid aqua;
+	text-decoration: none;
+	background: transparent;
+	width:25%;
+	height:50px;
+	margin: auto;
+	box-shadow: 0 0 30px skyblue;
+	color: aqua;
+	line-height: 100%;
+}
+
+button:hover{
+	text-transform: uppercase;
+	border: 0.2em solid #cc66ff;
+	text-decoration: none;
+	background: transparent;
+	width:25%;
+	height:50px;
+	margin: auto;
+	box-shadow: 0 0 30px #cc66ff;
+	color: #cc66ff;
+}
+
+li:hover{
+	background: brown;
+}
+
+pre{
+	margin-left: 30px;
+	font-size: 28px;
+}
+
+li.logo {
+	background-color:chocolate;
+	width: 164px;
+	height: 138px;
+	border-radius: 0 30px 0 0;
+}
+
+li.logo:hover{
+	background: brown;
+}
+
+header .logo a {
+	background-image: url("Images/churras.png");
+	background-color:transparent;
+	background-size: 128px;
+	background-position: center;
+	height: 100px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999999px;
+	width: 128px;
+}
+
+input[type="text"],
+input[type="password"]
+{
+	margin:auto;
+	margin-top:20px;
+	display: block;
+	box-sizing: border-box;
+	padding: 4px;
+	width: 220px;
+	height: 32px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #aaa;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	transition: 0.2s ease;
+}
+
+input[type="submit"]
+{
+	margin-top:20px;
+	width: 120px;
+	height: 32px;
+	background: #f44336;
+	border: none;
+	border-radius: 2px;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus
+{
+	background: #ff5722;
+	transition: 0.2s ease;
+}
+
+body.inscricao
+{
+	background-image: url("Images/background.jpg");
+	border-radius: 0%;
+	background-repeat: no-repeat;
+	margin:auto;
+	height: 100%;
+	width: 100%;
+}
+
+div.login-box
+{
+	margin:auto;
+	background-color:transparent;
+	border-radius: 0%;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+}
+
+div.left-box
+{
+	text-align:center;
+	border-radius: 0%;
+	background: orange;
+	border-radius: 5%;
+	margin:auto;
+	margin-top:100px;
+	height:333px;
+	width:300px;
+}
